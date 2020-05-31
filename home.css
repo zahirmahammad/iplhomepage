@@ -161,7 +161,7 @@ li:hover{
     top:50px;
     left:0px;
     animation-name: move;
-    animation-iteration-count: 20;
+    animation-iteration-count: 30;
     animation-duration: 5s;
     animation-delay: 6s;
     animation-direction: alternate;
