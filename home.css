@@ -1,0 +1,173 @@
+body{
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0px;
+    background-position: fixed;
+}
+
+.csk{
+    border-radius: 10px;
+    width: 280px;
+    height:200px;
+    position: absolute;
+    left:150px;
+    top: 300px;
+    box-shadow:0px 5px 5px black;
+}
+.kkr{
+    border-radius: 10px;
+    width: 280px;
+    height:200px;
+    position: absolute;
+    top: 590px;
+    left:150px;
+    box-shadow:0px 5px 5px black;
+}
+
+.punjab{
+    border-radius: 10px;
+    width: 280px;
+    height:200px;
+    position: absolute;
+    left: 460px;
+    top: 300px;
+    box-shadow:0px 5px 5px black;
+}
+
+.rr{
+    border-radius: 10px;
+    width: 280px;
+    height:200px;
+    position: absolute;
+    left: 460px;
+    top: 590px;
+    box-shadow:0px 5px 5px black;
+}
+
+.srh{
+    border-radius: 10px;
+    width: 280px;
+    height:200px;
+    position: absolute;
+    right:455px;
+    top: 300px;
+    box-shadow:0px 5px 5px black;
+}
+.rcb{
+    border-radius: 10px;
+    width: 280px;
+    height:200px;
+    position: absolute;
+    right:455px;
+    top:590px;
+    box-shadow:0px 5px 5px black;
+}
+.mi{
+    border-radius: 10px;
+    width: 280px;
+    height:200px;
+    position: absolute;
+    top: 300px;
+    right: 150px;
+    box-shadow:0px 5px 5px black;
+}
+.dc{
+    border-radius: 10px;
+    width: 280px;
+    height:200px;
+    position: absolute;
+    top: 590px;
+    right: 150px;
+    box-shadow:0px 5px 5px black;
+}
+.pos{
+    margin-left: 180px;
+    margin-right: 0px;
+    margin-top:-2px;
+    display: block;
+}
+
+.back{
+    background-color:#19388A;
+    border-style: hidden;
+    border-color: aliceblue;
+    border-width: 50px;
+    width: 1200px;
+    height: 700px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.navigate{
+    background-color: #19388A;
+    height:40px;
+    margin: 0px;
+    width: 100%;
+    box-shadow:0px 5px 5px black;
+}
+.team{
+    position: relative;
+    top: 300px;
+    left:0px;
+    align-items: center;
+}
+.style{
+    background-image:url("team_back.jpg");
+    width: 100%;
+    height:500px;
+    position: relative;
+    top:1000px;
+    opacity: 0.8;
+}
+.name{
+    text-align: center;
+    font-size: 20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    background-color: #19388A;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 400px;
+    list-style-type: none;
+    overflow: hidden;
+    width: 1118px;
+    position: sticky;
+    top:0px;
+}
+li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 50px;
+    text-align: center;
+    margin: 0px;
+    border-right:1px solid black;
+    color:white;
+}
+li:hover{
+    background-color:#696969 ;
+}
+.heading{
+    color: white;
+    font-size: 30px;
+    padding: 0px 500px;
+    letter-spacing: 5px;
+}
+.cup{
+    position: absolute;
+    top:50px;
+    left:0px;
+    animation-name: move;
+    animation-iteration-count: 20;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    animation-direction: alternate;
+}
+@keyframes move{
+    0%{transform: scale(1,1);}
+    50%{transform: scale(0.8,0.8);}
+    100%{transform: scale(1,1);
+}
